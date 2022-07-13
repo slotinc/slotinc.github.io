@@ -1,16 +1,30 @@
-*{
+* {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
 
-body{
+body {
     background-color: rgb(111, 136, 245);
 }
 
-main{
+main {
     background-color: white;
     width: 500px;
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.164);
+}
+
+.profile {
+    width: 170px;
+    background-color: red;
+    position: absolute;
+    margin: 0;
+}
+
+.content {
+
+    position: relative;
+    margin-left: 20%;
+
 }
